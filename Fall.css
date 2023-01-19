@@ -1,0 +1,133 @@
+body {
+    background-color: #e3d5ca;
+    font-family: "Nunito", sans-serif;
+
+}
+
+#mainNavbar .navbar-brand {
+    color: #6c757d;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #6c757d;
+}
+#mainNavbar .nav-link:hover {
+    color: black;
+}
+
+#FirstText span {
+    color:#b08968;
+}
+
+#FirstText h1 {
+    font-size:3rem;
+    font-weight: 100;
+}
+
+#FirstText h1:last-child {
+    font-size: 1rem;
+    margin-left: 19rem;
+}
+
+h2 {
+    font-weight:100;
+    font-size: 2.5rem;
+    color: red;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+.navbar.scrolled {
+    background: #edede9;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+p {
+    margin-bottom: 0rem;
+}
+
+.picbthi {
+    border: 3px solid #495057;
+    border-radius:400px;
+    width: 100%;
+}
+
+
+.love div {
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 300;
+    transition: 3s;
+    box-sizing: content-box;
+}
+
+.love:hover .anhem div:nth-of-type(2)  {
+    transform: translate(-80px, 100px) scale(2);
+}
+
+.love:hover .anhem div:nth-of-type(3)  {
+    transform: translate(-70px, 100px) scale(2);
+}
+
+.love:hover .anhem div:nth-of-type(1)  {
+    transform: translate(-10px, 100px) scale(2);
+}
+
+.love:hover .yeu div:nth-of-type(1)  {
+    transform: translate(-52.5px, 100px) scale(2);
+}
+
+.love:hover .yeu div:nth-of-type(3)  {
+    transform: translate(-52.5px, 100px) scale(2);
+}
+
+.love:hover .yeu div:nth-of-type(2)  {
+    transform: translate(-30px, 100px) scale(2);
+}
+
+.love:hover .anhem div:nth-of-type(4)  {
+    transform: translate(20px, 100px) scale(2);
+}
+
+.love:hover .anhem div:nth-of-type(5)  {
+    transform: translate(35px, 100px) scale(2);
+}
+
+.love:hover .yeu div:nth-of-type(4)  {
+    transform: translate(20px, 100px) scale(2);
+}
+
+h2 {
+    transition: 3s;
+}
+h2:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 5px 5px 1px #ef233c;
+    border: 2px solid #ef233c;
+    border-radius: 50px;
+}
